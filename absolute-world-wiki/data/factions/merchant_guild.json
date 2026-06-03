@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/faction.schema.json",
+  "id": "merchant_guild",
+  "name": "Merchant Guild",
+  "summary": "A compact of traders, caravan owners, and market factors that regulates prices and protects trade privileges.",
+  "public_goal": "Keep roads safe, markets supplied, and weights standardized.",
+  "private_goal": "Control access to ruin-recovered goods before they enter public exchange.",
+  "influence": "regional",
+  "headquarters": "old_market",
+  "relationships": [
+    {
+      "faction_id": "chronicler_archives",
+      "status": "rival",
+      "notes": "The guild wants quick trade; the archives want provenance and restrictions."
+    }
+  ],
+  "notes": "The guild sponsors many guards indirectly through market fees."
+}

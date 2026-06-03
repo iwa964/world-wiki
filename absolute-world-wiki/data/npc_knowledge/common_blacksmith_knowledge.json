@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/npc_knowledge.schema.json",
+  "id": "common_blacksmith_knowledge",
+  "audience": "blacksmith",
+  "summary": "Shared practical knowledge and rumors commonly available to blacksmiths in the Old Market.",
+  "known_facts": [
+    "The Merchant Guild pays promptly for standardized fittings and caravan repairs.",
+    "Guards inspect cellar doors more often near the Reincarnation Festival.",
+    "Archive seals can delay the sale of old metalwork until provenance is checked."
+  ],
+  "rumors": [
+    "Some ruin-recovered blades will not hold a new edge unless quenched under moonlight.",
+    "A sealed well below the market echoes with hammering on festival nights."
+  ],
+  "unknowns": [
+    "The true purpose of the underground inscriptions.",
+    "Which guild factors secretly trade in restricted artifacts."
+  ],
+  "source_reliability": "mixed",
+  "notes": "Blacksmith knowledge skews toward material evidence and workshop gossip."
+}

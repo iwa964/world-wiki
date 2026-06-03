@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/occupation.schema.json",
+  "id": "chronicler",
+  "name": "Chronicler",
+  "summary": "A trained recorder of events, lineages, debts, omens, and civic decisions.",
+  "social_role": "Preserves public memory and arbitrates disputes by consulting archived records.",
+  "common_skills": ["archival notation", "interviewing", "cross-referencing", "cipher literacy"],
+  "typical_tools": ["ink kit", "wax tablets", "ledger cords", "archive seal"],
+  "associated_factions": ["chronicler_archives"],
+  "known_locations": ["old_market", "underground_ruins"],
+  "notes": "Senior chroniclers distinguish official record from rumor, but junior scribes often collect both."
+}

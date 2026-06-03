@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/faction.schema.json",
+  "id": "chronicler_archives",
+  "name": "Chronicler Archives",
+  "summary": "An order of record keepers who preserve civic memory and investigate historical discontinuities.",
+  "public_goal": "Maintain reliable records for courts, families, guilds, and councils.",
+  "private_goal": "Determine whether reincarnation memories are recurring evidence of an older catastrophe.",
+  "influence": "regional",
+  "headquarters": "old_market",
+  "relationships": [
+    {
+      "faction_id": "merchant_guild",
+      "status": "rival",
+      "notes": "The archives restrict some ruin artifacts that the guild would rather sell."
+    }
+  ],
+  "notes": "Archive seals are accepted as proof of verified testimony in most local courts."
+}

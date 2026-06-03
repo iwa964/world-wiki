@@ -1,0 +1,18 @@
+{
+  "id": "reincarnation_festival",
+  "name": "Reincarnation Festival",
+  "summary": "An annual civic festival where families honor remembered lives, lost names, and promises carried across generations.",
+  "timing": "First new moon after the harvest accounting closes.",
+  "public_practices": [
+    "Lighting paired lanterns for present and remembered selves",
+    "Reading names from family ledgers",
+    "Offering repaired tools to symbolize continuity"
+  ],
+  "private_practices": [
+    "Chroniclers interview children who report unusually specific memories",
+    "Families compare recurring dreams against archived witness records"
+  ],
+  "associated_locations": ["old_market", "underground_ruins"],
+  "associated_factions": ["chronicler_archives", "merchant_guild"],
+  "notes": "Merchants treat the festival as a major trade day, while chroniclers treat it as a surge in testimony."
+}

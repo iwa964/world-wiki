@@ -1,0 +1,24 @@
+{
+  "status": "draft",
+  "source": "initial wiki setup",
+  "extracted_on": "2026-06-03",
+  "notes": [
+    {
+      "id": "initial_scope",
+      "summary": "Seed the wiki with occupations, factions, locations, rituals, NPC knowledge, items, drafts, schemas, and a dated changelog.",
+      "related_paths": [
+        "data/occupations",
+        "data/factions",
+        "data/locations",
+        "data/rituals",
+        "data/npc_knowledge",
+        "data/items"
+      ]
+    },
+    {
+      "id": "knowledge_boundary",
+      "summary": "Keep NPC knowledge separate from objective canon so rumors and mistaken beliefs can coexist with true setting facts.",
+      "related_paths": ["schemas/npc_knowledge.schema.json", "data/npc_knowledge"]
+    }
+  ]
+}

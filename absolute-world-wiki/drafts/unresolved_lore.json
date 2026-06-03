@@ -1,0 +1,23 @@
+{
+  "status": "draft",
+  "questions": [
+    {
+      "id": "ruin_origin",
+      "question": "Who built the underground ruins beneath the Old Market?",
+      "related_ids": ["underground_ruins", "old_market"],
+      "priority": "high"
+    },
+    {
+      "id": "memory_cycle_truth",
+      "question": "Are reincarnation memories literal past lives, inherited memory, or ritual suggestion?",
+      "related_ids": ["reincarnation_festival", "chronicler_archives"],
+      "priority": "high"
+    },
+    {
+      "id": "guild_artifact_trade",
+      "question": "Which Merchant Guild factors are moving restricted artifacts?",
+      "related_ids": ["merchant_guild", "ruin_etched_blade"],
+      "priority": "medium"
+    }
+  ]
+}

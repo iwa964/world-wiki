@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://absolute-world-wiki.local/schemas/faction.schema.json",
+  "title": "Faction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "summary", "public_goal", "influence", "relationships"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "name": { "type": "string" },
+    "summary": { "type": "string" },
+    "public_goal": { "type": "string" },
+    "private_goal": { "type": "string" },
+    "influence": {
+      "type": "string",
+      "enum": ["local", "regional", "national", "hidden"]
+    },
+    "headquarters": { "type": "string" },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["faction_id", "status"],
+        "properties": {
+          "faction_id": { "type": "string" },
+          "status": { "type": "string", "enum": ["ally", "rival", "neutral", "unknown"] },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}

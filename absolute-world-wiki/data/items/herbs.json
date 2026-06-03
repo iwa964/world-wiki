@@ -1,0 +1,19 @@
+{
+  "category": "herbs",
+  "items": [
+    {
+      "id": "memory_mint",
+      "name": "Memory Mint",
+      "summary": "A sharp-scented herb brewed during the Reincarnation Festival to aid recollection.",
+      "common_uses": ["festival tea", "wakefulness", "ritual offerings"],
+      "notes": "Its effects are cultural and anecdotal rather than proven."
+    },
+    {
+      "id": "cellar_root",
+      "name": "Cellar Root",
+      "summary": "A pale root gathered from damp foundations beneath the Old Market.",
+      "common_uses": ["poultices", "ink darkener"],
+      "notes": "Chroniclers use small amounts to deepen archive ink."
+    }
+  ]
+}
