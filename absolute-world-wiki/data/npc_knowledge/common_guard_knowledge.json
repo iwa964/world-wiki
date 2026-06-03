@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/npc_knowledge.schema.json",
+  "id": "common_guard_knowledge",
+  "audience": "guard",
+  "summary": "Shared patrol knowledge, regulations, and rumors common among Old Market guards.",
+  "known_facts": [
+    "The underground ruins are restricted after dusk.",
+    "The Reincarnation Festival requires double patrols around the archive annex.",
+    "The Merchant Guild funds extra watch shifts during heavy market days."
+  ],
+  "rumors": [
+    "Chroniclers hide witness records that contradict official family lineages.",
+    "One stair in the ruins changes depth between patrols."
+  ],
+  "unknowns": [
+    "Why some archive orders override guild writs.",
+    "What lies beyond the broken oath gate."
+  ],
+  "source_reliability": "mixed",
+  "notes": "Guard knowledge emphasizes orders, patrol routes, and restricted zones."
+}

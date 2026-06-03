@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/occupation.schema.json",
+  "id": "blacksmith",
+  "name": "Blacksmith",
+  "summary": "A craftsperson who forges tools, fittings, and weapons from worked metal.",
+  "social_role": "Maintains the practical infrastructure of settlements by repairing tools, shoeing draft animals, and supplying basic arms.",
+  "common_skills": ["forge work", "metal repair", "tool appraisal", "heat management"],
+  "typical_tools": ["anvil", "hammer", "tongs", "quenching barrel", "bellows"],
+  "associated_factions": ["merchant_guild"],
+  "known_locations": ["old_market"],
+  "notes": "Blacksmiths often hear travel news from merchants and guards while repairing their equipment."
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://absolute-world-wiki.local/schemas/memory_entry.schema.json",
+  "title": "Memory Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "date", "category", "summary", "details"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "date": { "type": "string", "format": "date" },
+    "category": { "type": "string", "enum": ["session", "lore", "character", "system", "changelog"] },
+    "summary": { "type": "string" },
+    "details": { "type": "string" },
+    "related_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "status": { "type": "string", "enum": ["draft", "canonical", "deprecated"] }
+  }
+}

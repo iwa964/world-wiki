@@ -1,0 +1,19 @@
+{
+  "category": "weapons",
+  "items": [
+    {
+      "id": "market_guard_spear",
+      "name": "Market Guard Spear",
+      "summary": "A sturdy spear issued for patrol duty and crowd deterrence.",
+      "common_users": ["guard"],
+      "notes": "Often repaired by Old Market blacksmiths."
+    },
+    {
+      "id": "ruin_etched_blade",
+      "name": "Ruin-Etched Blade",
+      "summary": "A recovered blade bearing damaged inscriptions similar to those in the underground ruins.",
+      "common_users": [],
+      "notes": "Requires archive review before legal sale."
+    }
+  ]
+}

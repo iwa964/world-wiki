@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/location.schema.json",
+  "id": "old_market",
+  "name": "Old Market",
+  "summary": "A weathered market district built over older stone foundations and crossed by busy trade lanes.",
+  "type": "district",
+  "notable_features": ["covered stalls", "iron weigh-house", "archive annex", "sealed well"],
+  "resident_factions": ["merchant_guild", "chronicler_archives"],
+  "known_by": ["blacksmith", "chronicler", "guard"],
+  "secrets": ["Several cellars connect to passages leading toward the underground ruins."],
+  "notes": "The Old Market is the most common place for rumors to become public knowledge."
+}

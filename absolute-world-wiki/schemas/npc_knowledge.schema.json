@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://absolute-world-wiki.local/schemas/npc_knowledge.schema.json",
+  "title": "NPC Knowledge",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "audience", "summary", "known_facts", "rumors", "unknowns"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "audience": { "type": "string" },
+    "summary": { "type": "string" },
+    "known_facts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "rumors": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "source_reliability": {
+      "type": "string",
+      "enum": ["low", "mixed", "high"]
+    },
+    "notes": { "type": "string" }
+  }
+}

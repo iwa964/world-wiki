@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/location.schema.json",
+  "id": "underground_ruins",
+  "name": "Underground Ruins",
+  "summary": "A buried complex of pre-market stone corridors, sealed chambers, and damaged inscriptions.",
+  "type": "ruin",
+  "parent_location": "old_market",
+  "notable_features": ["sunken stair", "broken oath gate", "mural fragments", "dry cistern"],
+  "resident_factions": ["chronicler_archives"],
+  "known_by": ["chronicler", "guard"],
+  "secrets": ["Some inscriptions appear to describe memories returning in cycles."],
+  "notes": "Access is restricted after dusk and during major festivals."
+}

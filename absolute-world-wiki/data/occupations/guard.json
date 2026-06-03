@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/occupation.schema.json",
+  "id": "guard",
+  "name": "Guard",
+  "summary": "A watch member responsible for patrols, gate duty, crowd control, and basic public safety.",
+  "social_role": "Keeps trade routes and civic spaces orderly enough for daily commerce and travel.",
+  "common_skills": ["patrolling", "threat assessment", "crowd management", "basic arms training"],
+  "typical_tools": ["spear", "lantern", "signal whistle", "watch tabard"],
+  "associated_factions": ["merchant_guild"],
+  "known_locations": ["old_market", "underground_ruins"],
+  "notes": "Guards know official restrictions around sealed ruins but rarely understand the archival reasons."
+}
